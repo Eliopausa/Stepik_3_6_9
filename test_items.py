@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.firefox.options import FirefoxProfile
 
 
-def test_items(browser):
+def test_items_add_to_basket_btn_exists(browser):
     try:
         link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
         browser.get(link)
